@@ -1,0 +1,76 @@
+LAGS_PREDICTOR = 'lags_predictor'
+LAGS_EXTERNAL = 'lags_external'
+LAGS_ORACLES = 'lags_oracles'
+N_SEASONS_SEASONALS = 'n_seasons_seasonals'
+N_TIMESTEPS_SEASON_SEASONALS = 'n_steps_seasons_seasonals'
+N_TIMESTEPS_PREDICT = 'n_timesteps_predict'
+STEPS_AR_PREDICTOR = 'steps_ar_predictor'
+STEPS_AR_EXTERNAL = 'steps_ar_external'
+STEPS_AR_ORACLES = 'steps_ar_oracles'
+COLUMNS_W_SEASONAL_EXTERNAL = 'columns_w_seasonal_external'
+COLUMNS_W_SEASONAL_ORACLES = 'columns_w_seasonal_oracles'
+PARAMS = 'params'
+DATETIME_REFERENCE = 'datetime_reference'
+DATETIME_TRAIN_START = 'datetime_train_start'
+DATETIME_TRAIN_END = 'datetime_train_end'
+PARAMS_NORMALIZATION = 'params_normalization'
+TRACE = 'trace'
+DATA_PASS_MODEL = 'data_pass_model'
+NAME_COLUMN_PREDICT = 'column_predict'
+NAMES_COLUMNS_EXTERNAL = 'columns_external'
+NAMES_COLUMNS_ORACLES = 'columns_oracles'
+FN_TRANSFORM_EXTERNAL = 'fn_transform_external'
+FN_TRANSFORM_ORACLES = 'fn_transform_oracles'
+SEASONALS_MULTIPLICATIVE = 'seasonals_year_multiplicative'
+
+SAMPLES_2 = 'samples_2'
+SAMPLES_1 = 'samples_1'
+TRUTH = 'truth'
+PREDICTOR = 'predictor'
+NAME_MODEL = 'name_model'
+
+PERIOD_DAYS_YEAR = 365
+
+DATASET_SAMPLE = 'sample'
+DATASET_OUT_SAMPLE = 'out_sample'
+
+COLUMN_FORECAST_RADAR = 'forecast_radar'
+
+PARAM_LAMBDA = 'lambda'
+PARAM_LAGS = 'lags'
+PARAM_THRESHOLDS = 'thresholds'
+PARAM_SEASONS_DAYS_WEEK = 'seasons_days_week'
+PARAM_N_SEASONS_YEAR = 'n_seasons_year'
+PARAM_N_STEPS_FORECAST_HORIZON = 'n_steps_forecast_horizon'
+PARAM_N_STEPS_FIRST_PREDICION = 'n_steps_first_prediction'
+PARAM_VARIABLE_TARGET = 'variable_target'
+
+# field to store model
+KWARGS_MODEL = 'kwargs_model'
+INFO_HUMAN_READABME = 'model_info_human_readable'
+PARAMS_HUMAN_READABLE = 'params_human_readable'
+
+SCORES_SCALAR = 'scores_scalar'
+SCORES_INTRADAY = 'scores_intraday'
+SCORES_TIMESTEPS = 'scores_timesteps'
+SCORES_CRITERIA = 'scores_criteria'
+
+CRITERIA_BIC = 'bic'
+CRITERIA_AIC = 'aic'
+
+TRAIN = 'data_train'
+TEST = 'data_test'
+SCORES_OVERALL = 'scores_all_data'
+SCORES_SUBSETS = 'scores_subset'
+
+INTERACTION = 'interaction'
+INTERACTION_LAG = 'interactionLag{lag}'
+CUMULATE = 'CUMULATED'
+
+ORACLE = 'ORACLE'
+FORECAST = 'FORECAST'
+
+LAG = 'lag'
+POW = 'pow{order}'
+THRESHOLD = 'THRESHOLD'
+POWERS = 'powers'
